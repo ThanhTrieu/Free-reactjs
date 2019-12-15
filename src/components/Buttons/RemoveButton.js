@@ -4,7 +4,12 @@ import './RemoveButton.css';
 const RemoveButton = (props) => {
   return(
     <>
-      <button className="remove">&larr;</button>
+      <button
+        className="remove"
+        onClick={()=> props.handleRemove()}
+      >
+        &larr;
+      </button>
     </>
   )
 }

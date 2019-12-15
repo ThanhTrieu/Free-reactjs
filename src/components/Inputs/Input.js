@@ -4,7 +4,9 @@ import './Input.css';
 const Input = (props) => {
   return(
     <>
-      <div className="input">{props.value}</div>
+      <div className="input">
+        {props.value}
+      </div>
     </>
   );
 }

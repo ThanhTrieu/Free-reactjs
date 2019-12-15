@@ -7,7 +7,10 @@ const Button = (props) => {
 
   return(
     <>
-      <button className={classOperator} onClick={() => props.handleClick(props.children)}> 
+      <button 
+        className={classOperator}
+        onClick={()=>props.handleClick(props.children)}
+      > 
         {props.children} 
       </button>
     </>

@@ -4,7 +4,12 @@ import './ClearButton.css';
 const ClearButton = (props) => {
   return(
     <>
-      <button className="clear">Clear</button>
+      <button 
+        className="clear"
+        onClick={() => props.handleClear()}
+      >
+        Clear
+      </button>
     </>
   );
 }
