@@ -1,0 +1,8 @@
+.input {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  height: 5em;
+  background-color: #293944;
+  align-items: flex-end;
+}
